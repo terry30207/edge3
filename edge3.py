@@ -9,7 +9,6 @@ from pathlib import Path
 
 
 numpy.random.seed(7)
-print()
 (X_train, y_train),(X_test, y_test) = mnist.load_data()
 X_train = X_train / 255
 X_test = X_test / 255
